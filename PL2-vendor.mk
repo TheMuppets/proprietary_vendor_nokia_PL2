@@ -108,7 +108,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/firmware/elanfp64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b06 \
     vendor/nokia/PL2/proprietary/vendor/firmware/elanfp64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b07 \
     vendor/nokia/PL2/proprietary/vendor/firmware/elanfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.mdt \
-    vendor/nokia/PL2/proprietary/vendor/firmware/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn81_firmware.bin
+    vendor/nokia/PL2/proprietary/vendor/firmware/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn81_firmware.bin \
+    vendor/nokia/PL2/proprietary/vendor/usr/keylayout/elan.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/elan.kl
 
 PRODUCT_PACKAGES += \
     libsensor1 \
