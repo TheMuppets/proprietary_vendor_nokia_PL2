@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k3p3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_chromatix.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k4h8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_chromatix.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k4h8_pl2_holitech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_pl2_holitech_chromatix.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nokia/PL2/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_pl2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pl2.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pl2_cn.xml \
@@ -332,12 +331,8 @@ PRODUCT_PACKAGES += \
     libremosaic_daemon \
     libsurround_3mic_proc \
     libtinycompress \
-    android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     fingerprint.elan \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
     libFastRPC_AUE_Forward_skel \
@@ -354,7 +349,6 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_skel \
     libscveT2T_skel \
     cnss-daemon \
-    android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     mm-qcamera-app \
     sensors.qti
