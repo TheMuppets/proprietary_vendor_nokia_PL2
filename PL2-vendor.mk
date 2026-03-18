@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2_cn.xml \
+    vendor/nokia/PL2/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/calibration_test.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibration_test.bin \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k3p3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_chromatix.xml \
