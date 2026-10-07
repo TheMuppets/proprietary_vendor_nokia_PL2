@@ -112,10 +112,10 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/usr/keylayout/elan.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/elan.kl
 
 PRODUCT_PACKAGES += \
+    sensors.sdm660 \
     libsensor1 \
     libsensor_reg \
     sensor_calibrate \
-    sensors.ssc \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
