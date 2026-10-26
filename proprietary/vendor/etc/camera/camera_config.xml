@@ -231,12 +231,12 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.28</FocalLength>
+      <FocalLength>3.57</FocalLength>
       <FNumber>2.0</FNumber>
-      <TotalFocusDistance>5.0</TotalFocusDistance>
+      <TotalFocusDistance>0.392</TotalFocusDistance>
       <HorizontalViewAngle>65.2</HorizontalViewAngle>
       <VerticalViewAngle>51.4</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <MinFocusDistance>0.316</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
 <!-- //S2 project///-->
@@ -617,6 +617,109 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.316</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+  <!--//Taishan Rear main 48M//-->
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>s5kgm1sp</SensorName>
+    <EepromName>s5kgm1sp</EepromName>
+    <ActuatorName>dw9800_tas</ActuatorName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>s5kgm1sp_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <SensorSlaveAddress>0x20</SensorSlaveAddress>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.57</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>5.0</TotalFocusDistance>
+      <HorizontalViewAngle>66.2</HorizontalViewAngle>
+      <VerticalViewAngle>51.6</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <!--//Taishan Rear mono 5M//-->
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>s5k5e9yu05</SensorName>
+    <EepromName>s5k5e9yu05</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>s5k5e9yu05_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <SensorSlaveAddress>0x5A</SensorSlaveAddress>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.0</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>10.0</TotalFocusDistance>
+      <HorizontalViewAngle>71.8</HorizontalViewAngle>
+      <VerticalViewAngle>56.6</VerticalViewAngle>
+      <MinFocusDistance>0.5</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <!--//TAS Front OV16885//-->
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>ov16885</SensorName>
+    <EepromName>ov16885</EepromName>
+    <ChromatixName>ov16885_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+     <MountAngle>0</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1f</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.85</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.98</TotalFocusDistance>
+      <HorizontalViewAngle>61.6</HorizontalViewAngle>
+      <VerticalViewAngle>48.2</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <!--//TAS Rear wide 8M//-->
+  <CameraModuleConfig>
+    <CameraId>3</CameraId>
+    <SensorName>hi846</SensorName>
+    <EepromName>hi846</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>hi846_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <SensorSlaveAddress>0x40</SensorSlaveAddress>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.73</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>1.98</TotalFocusDistance>
+      <HorizontalViewAngle>104.3</HorizontalViewAngle>
+      <VerticalViewAngle>92.2</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
   <!-- //CTL Rear wide (12M) //-->
   <CameraModuleConfig>
     <CameraId>0</CameraId>
@@ -693,7 +796,6 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.37</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-  <!-- //CTL Front (8M) for HLT (i2c addr: 0x5A) //-->
   <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>s5k4h7_ctl_front</SensorName>

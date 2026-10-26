@@ -107,8 +107,8 @@ special_mode_mask values:
       <A3Video>s5k3p3_zsl_video_dw9800</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
-      <ISPPreview>s5k3p3_snapshot</ISPPreview>
-      <ISPSnapshot>s5k3p3_snapshot</ISPSnapshot>
+      <ISPPreview>s5k3p3_preview</ISPPreview>
+      <ISPSnapshot>s5k3p3_preview</ISPSnapshot>
       <ISPVideo>s5k3p3_snapshot</ISPVideo>
       <CPPPreview>s5k3p3_cpp_preview</CPPPreview>
       <CPPSnapshot>s5k3p3_cpp_snapshot</CPPSnapshot>
@@ -118,7 +118,7 @@ special_mode_mask values:
       <A3Video>s5k3p3_default_video_dw9800</A3Video>
     </ChromatixName>
       <ChromatixName sensor_resolution_index="1" special_mode_mask="LONG_EXPOSURE">
-      <ISPPreview>s5k3p3_snapshot</ISPPreview>
+      <ISPPreview>s5k3p3_preview</ISPPreview>
       <ISPSnapshot>s5k3p3_snapshot_longexposure</ISPSnapshot>
       <ISPVideo>s5k3p3_snapshot</ISPVideo>
       <CPPPreview>s5k3p3_cpp_preview</CPPPreview>
